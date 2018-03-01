@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "PT Serif", serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -21,4 +21,39 @@ html {
 
 body {
   margin: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+header {
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav {
+    text-align: right;
+  }
+
+  .grid {
+    text-align: left;
+  }
+
 }
